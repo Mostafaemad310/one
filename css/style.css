@@ -1,0 +1,746 @@
+ *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr
+{
+    clear: both;
+}
+.body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.control
+{
+    background-image: url(../images/1151.png);
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    border-radius: 25px;
+}
+.child
+{
+    background-image: url(../images/gooo.png);
+    background-size: 100% 100%;
+    width: 40px;
+    height: 90px;
+    position: fixed;
+    right: 0;
+    top: 300px;
+}
+
+/*--start navbar---*/
+
+.navbar
+{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.navbar .nav
+{
+    width: 90%;
+    margin: auto;
+}
+.nav .logo
+{
+    width: 20%;
+    margin-top: 15px;
+    float: left;
+}
+.nav .logo img
+{
+    width: 80%;
+    text-align: center;
+}
+.nav .unit 
+{
+    width: 60%;
+    float: right;
+    margin-top: 35px;
+    text-align: right;
+   
+}
+.nav .unit .unity
+{
+    list-style: none;
+    float: right;
+}
+.nav .unit .unity .icons
+{
+    float: left;
+    padding-left: 15px;
+}
+.nav .unit a
+{
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    text-decoration: none;
+}
+.nav .unit a:hover
+{
+   color: #8e7754;
+
+}
+
+/*---end navbar--*/
+
+/*---start home--*/
+.home
+{
+    background-image: url(../images/1.jpg);
+    background-size: 100% 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+.home .caption 
+{
+    color: white;
+    padding-top: 180px;
+    text-align: center;
+}
+.home .caption  p
+{
+font-size: 24px;
+margin: 30px 0px;
+}
+.home .caption h1
+{
+    font-size: 60px;
+}
+.home .caption .btn
+{
+    padding: 17px 25px;
+    margin:  5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;  
+    border-radius: 5px;  
+    transition: background-color 0.3s ;
+}
+.home .caption .btn-brown
+{
+    background-color: #8e7754;
+    color: rgb(255, 255, 255);
+}
+.home .caption .btn-white
+
+{
+    background-color:transparent;
+}
+.home .caption .btn-brown:hover
+{
+    background-color: white;
+    color: black;
+}
+.home .caption .btn-white:hover
+{
+    background-color: white;
+    color: black;
+}
+/*---end home---*/
+
+/*--start container--*/
+.contain
+{
+    margin-top: 85px;
+}
+.contain .inner
+{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.contain .inner .about
+{
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+ }
+.contain .inner .about img
+{
+    width: 100%;
+}
+.contain .inner .item
+{
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+    margin-top: 25px;
+}
+.contain .inner .item h2
+{
+    font-size: 30px;
+    color: #373a3c;
+    margin-top: 30px;
+}
+.contain .inner .item p
+{
+    font-size: 16px;
+    color: #686868;
+    font-weight: 400;
+    line-height: 2;
+    padding-top: 25px;
+}
+.contain .inner .item1
+{
+    margin-top: 20px;
+    overflow: auto;
+} 
+.contain .inner .item .item1 .img1 img
+{
+    width: 6%;
+    margin-top: 28px;
+    padding-left: 8px;
+    float: left;
+}
+.contain .inner .item .item1 .cap1 p
+{
+    width: 92%;
+    float: left;
+    padding-left: 15px;
+    color: #686868;
+}
+/*---end container--*/
+
+/*-----start location----*/
+.location
+{
+    margin-top: 85px;
+}
+.location .loca
+{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.location .our
+{
+   width: 50%;
+   float: left;
+   padding-right: 30px;
+}
+.location .our h2
+{
+    font-size: 30px;
+    color: #373a3c;
+    margin-top: 70px;
+}
+.location .our p
+{
+    font-size: 16px;
+    color: #686868;
+    font-weight: 400;
+    line-height: 2;
+    padding-top: 20px;
+}
+.location .photo
+{
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+}
+.location .photo img
+{
+    width: 100%;
+}
+/*----end location----*/
+
+/*---start bakibg--*/
+.baking
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 85px;
+    text-align: center;
+}
+.baking h2
+{
+    font-size: 30px;
+    color: #373a3c;
+    margin-top: 20px;
+}
+.baking p
+{
+    font-size: 16px;
+    color: #686868;
+    line-height: 2;
+    margin-top: 15px;
+}
+.baking .caption
+{
+   margin-top: 30px;
+}
+ .caption .our1
+{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding-right: 30px;
+}
+.caption .our2
+{
+    width: 33.33%;
+    float: left;
+    text-align: center; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.caption .our3
+{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding-left: 30px;
+}
+ .caption  img
+{
+    width: 100%;
+}
+ .caption  h3
+{
+    font-size: 20px;
+    color: #373a3c;
+    margin-top: 20px;
+}
+.baking .caption p
+{
+    font-size: 16px;
+    color: #686868;
+    line-height: 2;
+    margin-top: 15px;
+}
+/*--end bakibg---*/
+
+/*--start information---*/
+
+.contact
+{
+    margin-top: 85px;
+}
+.contact .details
+{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.contact .details .information
+{
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+ }
+
+ .contact .details .map
+{
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+}
+.contact .details .map iframe
+{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.contact .details .information h2
+{
+    font-size: 30px;
+    color: #373a3c;
+    margin-top: 30px;
+}
+.contact .details .information p
+{
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+    line-height: 2;
+    padding-top: 25px;
+}
+.contact .details .information .info1
+{
+    overflow: auto;
+} 
+.contact .details .information .icon .icon1 img
+{
+    width: 7%;
+    margin-top: 20px;
+    padding-left: 8px;
+    float: left;
+}
+.contact .details .information .icon .icon2 p
+{
+    width: 92%;
+    float: left;
+    padding-left: 15px;
+    color: #686868;
+}
+/*--end information----*/
+
+/*-- start list--*/
+
+.list 
+{
+    background-color: #403d38;
+    margin-top: 85px;
+}
+.list1
+{
+    width: 90%; 
+    margin: auto;
+    overflow: auto;
+}
+.list1 h4
+{
+    font-size: 18px; 
+    color: white;
+    padding-top: 50px;
+}
+.list1 p
+{
+    color: #686868;
+    padding-top: 20px;
+    
+}
+.list1 .us
+{
+    width: 25%;
+    float: left;
+    line-height: 1.5em;
+
+}
+.list1 .special
+{
+    width: 25%;
+    float: left;
+    line-height: 2em;
+    padding-left: 10px;
+
+}
+.list .special hr
+{
+    color: #686868;
+    opacity: 20%;
+}
+.list1 .special ul 
+{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.list1 .special ul li
+{
+    color: #686868;
+}
+
+.list1 .hours
+{
+    width: 25%;
+    float: left;
+    line-height: 2em;
+    padding-left: 10px;
+} 
+.list1 .hours hr
+{
+    color: #686868;
+    opacity: 20%;
+}
+.list1 .hours ul 
+{
+     padding-top: 20px;
+     padding-left: 20px; 
+}
+.list1 .hours ul li
+{
+     color: #686868;
+}
+
+.list1 .details
+{
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+    overflow: auto;
+}
+.list1 .details hr
+{
+    color: #686868;
+    opacity: 20%;
+    margin-top: 10px;
+}
+.list1 .backgr
+{
+    position: absolute;
+}
+.list1 .backgr img 
+{
+    margin-top: 65px;
+    text-align: right;
+    opacity: 10%;
+}
+.list1 .details .about 
+{
+   width: 100%;
+   height: 50;
+   margin-top: 10px;
+   line-height: 1.5;
+}
+.list1 .details .about .about1 
+{
+   width: 8%;
+   padding-left: 7px;
+   float: left;
+   padding-top: 20px;
+}
+.list1 .details .about .about2
+{
+   width: 85%;
+   height: 50;
+   float: left;
+   padding-left: 20px;
+}
+/*-- end list--*/
+
+/*-- start footer--*/
+.footer 
+{
+    background-color: #353330;
+    text-align: center;
+}
+.footer .footer-img img
+{
+ margin-top: 50px;
+}
+.footer .footer-img p
+{
+    color: #686868;
+    padding-top: 25px;
+}
+.footer .header 
+{
+    margin: auto;
+    overflow: auto;
+    padding-top: 25px;
+    padding-left: 560px;
+}
+.footer .header .face
+{
+   float: left;
+    width: 7%;
+}
+.footer .header  .gmail
+{
+    float: left;
+    width: 7%;
+}
+.footer .header  .insta
+{
+    float: left;
+    width: 7%;
+}
+.footer .header .twiter
+{
+    float: left;
+    width: 7%;
+}
+/*---end footer----*/
+ 
+/*--- media query---*/
+
+  
+
+
+@media screen and (max-width:599px) 
+{
+    .home .caption  p
+    {
+        font-size: 15px;
+    }
+    .home .caption  h1
+    {
+        font-size: 30px;
+    }
+
+    .contain .inner .about
+    {
+        width: 100%;
+    }
+    .contain .inner .item
+    {
+        width: 100%;
+    }
+
+    .location .our
+    {
+        width: 100%;
+    }
+    .location .photo
+    {
+        width: 100%;
+    }
+    .caption .our1
+    {
+        width: 100%;
+    }
+    .caption .our2
+    {
+        width: 100%;
+    }
+    .caption .our3
+    {
+        width: 100%;
+    }
+    .contact .details .information
+    {
+        width: 100%;
+    }
+    .contact .details .map
+    {
+        width: 100%;
+    }
+    .list1 .us{
+        width: 100%;
+    }
+    .list1 .special
+    {
+        width: 100%;
+    }
+    .list1 .details
+    {
+        width: 100%;
+    }
+    .list1 .hours
+    {
+        width: 100%;
+    }
+
+}
+@media  screen and (max-width:992px) and(min-width:768px)
+{
+   
+    .contain .inner .about
+    {
+        width: 50%;
+    }
+    .contain .inner .item
+    {
+        width: 50%;
+    }
+
+    .location .our
+    {
+        width: 50%;
+    }
+    .location .photo
+    {
+        width: 50%;
+    }
+    .caption .our1
+    {
+        width: 33.33%;
+    }
+    .caption .our2
+    {
+        width: 33.33%;
+    }
+    .caption .our3
+    {
+        width: 33.33%;
+    }
+    .contact .details .information
+    {
+        width: 50%;
+    }
+    .contact .details .map
+    {
+        width: 50%;
+    }
+    .list1 .us{
+        width: 50%;
+    }
+    .list1 .special
+    {
+        width: 50%;
+    }
+    .list1 .details
+    {
+        width: 50%;
+    }
+    .list1 .hours
+    {
+        width: 50%;
+    }
+    .footer 
+    {
+        width: 100%;
+    }
+
+
+}
+  
+@media  screen and (max-width:767px) and(min-width:600px)
+{
+    .contain .inner .about
+    {
+        width: 50%;
+    }
+    .contain .inner .item
+    {
+        width: 50%;
+    }
+
+    .location .our
+    {
+        width: 50%;
+    }
+    .location .photo
+    {
+        width: 50%;
+    }
+    .caption .our1
+    {
+        width: 33.33%;
+    }
+    .caption .our2
+    {
+        width: 33.33%;
+    }
+    .caption .our3
+    {
+        width: 33.33%;
+    }
+    .contact .details .information
+    {
+        width: 50%;
+    }
+    .contact .details .map
+    {
+        width: 50%;
+    }
+    .list1 .us{
+        width: 50%;
+    }
+    .list1 .special
+    {
+        width: 50%;
+    }
+    .list1 .details
+    {
+        width: 50%;
+    }
+    .list1 .hours
+    {
+        width: 50%;
+    }
+  
+}
+
+
